@@ -26,6 +26,10 @@ class EmojiMemoryGame: ObservableObject{
     
     // MARK: - Acess to the Model
     
+    var test: Array<Card> {
+        model.cards
+    }
+    
     var cards: Array<Card> {
         // propriedade computada. O valor de cards é acessado por essa função
         model.cards
