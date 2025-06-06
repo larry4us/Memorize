@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import Memorize
+@testable import MemorizeStanTest
 
 struct MemorizeTests {
     
