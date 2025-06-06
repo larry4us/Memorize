@@ -26,7 +26,7 @@ class EmojiMemoryGame: ObservableObject{
     
     // MARK: - Acess to the Model
     
-    var test: Array<Card> {
+    var test2: Array<Card> {
         model.cards
     }
     
